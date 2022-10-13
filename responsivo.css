@@ -1,0 +1,65 @@
+/* layout sem side bar */
+@media (max-width: 935px) {
+  .sidebar-container,
+  .sidebar {
+    display: none;
+  }
+
+  .conteudo-da-pagina {
+    justify-content: center;
+  }
+
+  .imagem-do-post img {
+    width: 100%;
+  }
+}
+
+/* modo mobile */
+@media (max-width: 614px) {
+  .linha,
+  .setinha,
+  .entrada-da-pesquisa,
+  .right div:nth-child(n + 2) {
+    display: none;
+  }
+
+  .left {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .left div:nth-child(3) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .right {
+    width: auto;
+    justify-content: right;
+    padding-right: 20px;
+  }
+
+  .stories {
+    background-color: #e5e5e5;
+    border: none;
+    margin: 54px 0 0 0;
+  }
+
+  .post {
+    height: auto;
+  }
+
+  .barra-inferior {
+    z-index: 5;
+    max-width: 100%;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .barra-inferior a {
+    color: black;
+  }
+}
